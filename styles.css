@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+}
+
+body {
+    padding: 2rem 1rem;
+    background-color: #542583;
+    width: 100%;
+    min-width: 800px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    background-color: #F3B75B;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    width: 50%;
+    min-width: 700px;
+    
+}
+
+
+
+h1,
+p {
+    text-align: center;
+    
+    
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+    font-weight: 800;
+}
+
+h1, .title-description{
+    letter-spacing: 3px;
+
+}
+
+
+#title {
+    display: block;
+    width: 100%;
+}
+
+.title-description {
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0 .5rem 0;
+}
+
+#img-div {
+    background-color: #F9F1BF;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0 1.5rem 0;
+
+}
+
+img {
+    width: 70%;
+    margin-bottom: 1rem;
+    min-width: 300px;
+    max-width: 100%;
+
+}
+
+#img-caption{
+    width: 500px;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-content > h2{
+    margin: 2rem 0;
+}
+
+.achievements > ul > li{
+    margin-bottom: .4rem;
+}
+
+.achievements > ul > li:last-child{
+    margin-bottom: 3rem;
+    
+}
+
+.quote > #tribute-info{
+    width: 600px;
+
+}
+
+.quote >p:last-child{
+    text-align: left;
+    text-indent: 10%;
+}
+
+.quote p {
+    font-style: italic;
+}
+
+h2:last-child{
+    width: 800px;
+    font-size: .9rem;
+    text-align: center;
+}
+
+a:last-child:hover{
+    color: #542583;
+
+}
+
